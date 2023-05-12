@@ -20,13 +20,19 @@ func CreateRSSFeed(result ard.Result, feedUrl string) *feeds.Feed {
 	var feedItems []*feeds.Item
 
 	for _, item := range result.Items.Nodes {
+		audioUrl := item.Audios[0].DownloadURL
+		if audioUrl == "" {
+			audioUrl = item.Audios[0].URL
+		}
+
 		feedItem := &feeds.Item{
-			Id:      item.ID,
-			Title:   item.Title,
-			Link:    &feeds.Link{Href: fmt.Sprintf("https://ard2rss.mauamy.de/%s", feedUrl)},
-			Created: item.PublishDate,
+			Id:          item.ID,
+			Title:       item.Title,
+			Link:        &feeds.Link{Href: fmt.Sprintf("https://ard2rss.mauamy.de/%s", feedUrl)},
+			Created:     item.PublishDate,
+			Description: item.Summary,
 			Enclosure: &feeds.Enclosure{
-				Url:    item.Audios[0].DownloadURL,
+				Url:    audioUrl,
 				Length: fmt.Sprintf("%d", item.Duration),
 				Type:   "audio/mpeg",
 			},
