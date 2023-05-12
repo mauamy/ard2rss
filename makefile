@@ -1,5 +1,5 @@
 BIN_NAME = ard2rss
-VERSION = 0.2.0
+VERSION = 0.2.1
 
 .PHONY: build
 
@@ -24,7 +24,7 @@ test_show:
 	curl http://localhost:8080/sendung/levels-und-soundtracks/12642475
 
 test_collection:
-	curl -L http://localhost:8080/sammlung/besser-einschlafen-mit-hoerbuechern/5739837/
+	curl -L http://localhost:8080/sammlung/einschlafen-mit-krimi-klassikern/58374573
 
 clean:
 	rm -rf ./bin
