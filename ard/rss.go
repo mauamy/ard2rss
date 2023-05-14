@@ -1,13 +1,12 @@
-package main
+package ard
 
 import (
-	"ard_audiothek_rss/ard"
 	"fmt"
 	"github.com/gorilla/feeds"
 	"strings"
 )
 
-func CreateRSSFeed(result ard.Result, feedUrl string) *feeds.Feed {
+func CreateRSSFeed(result Result, feedUrl string) *feeds.Feed {
 	imgUrl := strings.ReplaceAll(result.Image.URL, "{width}", "300")
 
 	feed := &feeds.Feed{
@@ -26,10 +25,11 @@ func CreateRSSFeed(result ard.Result, feedUrl string) *feeds.Feed {
 		}
 
 		feedItem := &feeds.Item{
-			Id:          item.ID,
-			Title:       item.Title,
-			Link:        &feeds.Link{Href: fmt.Sprintf("https://ard2rss.mauamy.de/%s", feedUrl)},
-			Created:     item.PublishDate,
+			Id:      item.ID,
+			Title:   item.Title,
+			Link:    &feeds.Link{Href: fmt.Sprintf("https://ard2rss.mauamy.de/%s", feedUrl)},
+			Created: item.PublishDate,
+
 			Description: item.Summary,
 			Enclosure: &feeds.Enclosure{
 				Url:    audioUrl,

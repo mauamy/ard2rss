@@ -4,7 +4,6 @@ import (
 	"ard_audiothek_rss/ard"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"log"
 	"net/http"
 )
 
@@ -17,7 +16,10 @@ func GetRSSFeed(c *gin.Context) {
 	name := c.Param("name")
 	id := c.Param("id")
 
-	log.Println("Request URL: ")
+	if mediaType != "sendung" && mediaType != "sammlung" {
+		c.AbortWithStatus(http.StatusNotFound)
+		return
+	}
 
 	ardUrl := fmt.Sprintf("https://www.ardaudiothek.de/%s/%s/%s", mediaType, name, id)
 
@@ -28,7 +30,7 @@ func GetRSSFeed(c *gin.Context) {
 	}
 	showDataResult := showData.Props.PageProps.InitialData.Data.Result
 
-	rssFeed := CreateRSSFeed(showDataResult, fmt.Sprintf("%s/%s/%s", mediaType, name, id))
+	rssFeed := ard.CreateRSSFeed(showDataResult, fmt.Sprintf("%s/%s/%s", mediaType, name, id))
 	xml, err := rssFeed.ToRss()
 	if err != nil {
 		c.AbortWithStatusJSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
