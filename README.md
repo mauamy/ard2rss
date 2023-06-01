@@ -9,9 +9,9 @@ ard2rss is currently hosted under https://ard2rss.mauamy.de.
 # How to use
 Go to the [ARD Audiothek](https://www.ardaudiothek.de/) and select a show or a collection you want an RSS feed for and copy the URL.  
 Your URL should look like this:  
-- https://www.ardaudiothek.de/sendung/<show_name>/<show_id>/
+- `https://www.ardaudiothek.de/sendung/<show_name>/<show_id>/`
 or
-- https://www.ardaudiothek.de/sammlung/<collection_name>/<collection_id>
+- `https://www.ardaudiothek.de/sammlung/<collection_name>/<collection_id>`
 
 Now, to get your RSS feed simply replace `www.ardaudiothek.de` with `ard2rss.mauamy.de`.
 
