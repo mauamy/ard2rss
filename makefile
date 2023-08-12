@@ -1,5 +1,5 @@
 BIN_NAME = ard2rss
-VERSION = 0.2.2
+VERSION = 0.3.0
 
 .PHONY: build
 
@@ -15,7 +15,7 @@ run: build
 docker:
 	docker build -t mauamy/ard2rss:${VERSION} .
 
-docker_push:
+docker_push: docker
 	docker push mauamy/ard2rss:${VERSION}
 
 test: test_show test_collection

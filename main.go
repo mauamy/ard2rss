@@ -3,21 +3,24 @@ package main
 import (
 	"ard_audiothek_rss/ard"
 	"fmt"
-	"github.com/gin-gonic/gin"
+	"github.com/julienschmidt/httprouter"
+	"log"
 	"net/http"
+	"os"
+	"time"
 )
 
 const ardUrl = "https://www.ardaudiothek.de/sendung/levels-und-soundtracks/12642475/"
 
 // <script id="__NEXT_DATA__"
 
-func GetRSSFeed(c *gin.Context) {
-	mediaType := c.Param("type")
-	name := c.Param("name")
-	id := c.Param("id")
+func GetRSSFeed(w http.ResponseWriter, r *http.Request) {
+	mediaType := readParam(r, "type")
+	name := readParam(r, "name")
+	id := readParam(r, "id")
 
 	if mediaType != "sendung" && mediaType != "sammlung" {
-		c.AbortWithStatus(http.StatusNotFound)
+		w.WriteHeader(http.StatusNotFound)
 		return
 	}
 
@@ -25,7 +28,8 @@ func GetRSSFeed(c *gin.Context) {
 
 	showData, err := ard.GetArdAudiothekShowData(ardUrl)
 	if err != nil {
-		c.AbortWithError(http.StatusInternalServerError, err)
+		w.WriteHeader(http.StatusInternalServerError)
+		fmt.Fprintf(w, "error: %s", err.Error())
 		return
 	}
 	showDataResult := showData.Props.PageProps.InitialData.Data.Result
@@ -33,17 +37,34 @@ func GetRSSFeed(c *gin.Context) {
 	rssFeed := ard.CreateRSSFeed(showDataResult, fmt.Sprintf("%s/%s/%s", mediaType, name, id))
 	xml, err := rssFeed.ToRss()
 	if err != nil {
-		c.AbortWithStatusJSON(http.StatusInternalServerError, gin.H{"error": err.Error()})
+		w.WriteHeader(http.StatusInternalServerError)
+		fmt.Fprintf(w, "error: %s", err.Error())
 		return
 	}
-	c.String(200, xml)
+
+	w.WriteHeader(http.StatusOK)
+	w.Write([]byte(xml))
+}
+
+func routes() http.Handler {
+	router := httprouter.New()
+
+	router.HandlerFunc(http.MethodGet, "/:type/:name/:id", GetRSSFeed)
+
+	return rateLimit(router)
 }
 
 func main() {
-	r := gin.Default()
+	logger := log.New(os.Stdout, "", 0)
 
-	r.GET("/:type/:name/:id", GetRSSFeed)
+	srv := &http.Server{
+		Addr:         fmt.Sprintf(":%d", 8080),
+		Handler:      routes(),
+		IdleTimeout:  time.Minute,
+		ReadTimeout:  10 * time.Second,
+		WriteTimeout: 30 * time.Second,
+	}
 
-	r.Run(":8080")
-
+	err := srv.ListenAndServe()
+	logger.Fatal(err)
 }
