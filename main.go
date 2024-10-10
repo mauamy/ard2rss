@@ -10,9 +10,7 @@ import (
 	"time"
 )
 
-const ardUrl = "https://www.ardaudiothek.de/sendung/levels-und-soundtracks/12642475/"
-
-// <script id="__NEXT_DATA__"
+// const ardUrl = "https://www.ardaudiothek.de/sendung/levels-und-soundtracks/12642475/"
 
 func GetRSSFeed(w http.ResponseWriter, r *http.Request) {
 	mediaType := readParam(r, "type")
@@ -24,17 +22,14 @@ func GetRSSFeed(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	ardUrl := fmt.Sprintf("https://www.ardaudiothek.de/%s/%s/%s", mediaType, name, id)
-
-	showData, err := ard.GetArdAudiothekShowData(ardUrl)
+	results, err := getAllShowDataResults(id)
 	if err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
 		fmt.Fprintf(w, "error: %s", err.Error())
 		return
 	}
-	showDataResult := showData.Props.PageProps.InitialData.Data.Result
 
-	rssFeed := ard.CreateRSSFeed(showDataResult, fmt.Sprintf("%s/%s/%s", mediaType, name, id))
+	rssFeed := ard.CreateRSSFeed(results, fmt.Sprintf("%s/%s/%s", mediaType, name, id))
 	xml, err := rssFeed.ToRss()
 	if err != nil {
 		w.WriteHeader(http.StatusInternalServerError)
