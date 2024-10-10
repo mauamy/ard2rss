@@ -3,7 +3,6 @@ package ard
 import (
 	"bytes"
 	"encoding/json"
-	"fmt"
 	"github.com/antchfx/htmlquery"
 	"io"
 	"net/http"
@@ -40,7 +39,6 @@ func GetArdAudiothekShowDataWithGraphApi(showId string, count, offset int) (*Gra
 	defer resp.Body.Close()
 
 	respData, _ := io.ReadAll(resp.Body)
-	fmt.Printf("resp data:\n %v\n", string(respData))
 
 	var graphQlResp GraphqlResponse
 	err = json.Unmarshal(respData, &graphQlResp)
