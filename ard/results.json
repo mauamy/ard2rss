@@ -1,0 +1,483 @@
+{
+  "numberOfElements": 54,
+  "id": "12449787",
+  "title": "Dark Matters - Geheimnisse der Geheimdienste",
+  "description": "\"Dark Matters\" bringt Licht in eine Welt, die eigentlich im Dunkeln bleiben soll. In jeder Folge geht es um einen wahren Fall, der die Tür zu einem Geheimdienst ein Stück weit öffnet. In Staffel 1 waren es die deutschen Geheimdienste und in Staffel 2 die Geheimdienste anderer Länder. Jetzt blickt \"Dark Matters\" auf Agenten und ihre Arbeit. Es geht um Tarnung, Verrat und sogar Mord. Die ARD-Geheimdienstexperten liefern in den Hintergrund-Folgen alles, was man dazu wissen muss.\nJeden Mittwoch kommt eine neue Doppelfolge. In der ARD Audiothek, auf SWR3.de und überall, wo es Podcasts gibt.\n\"Dark Matters - Geheimnisse der Geheimdienste” ist ein Podcast von SWR3 und rbb24 Inforadio, produziert von BosePark Productions.",
+  "editorialCategories": {
+    "nodes": [
+      {
+        "title": "Doku \u0026 Reportage",
+        "id": "42914710"
+      },
+      {
+        "title": "True Crime",
+        "id": "63764892"
+      }
+    ]
+  },
+  "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+  "image": {
+    "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:11834d318c02a653?w={width}\u0026ch=74232de8f51c79b1",
+    "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:dd416a4299f6b664?w={width}\u0026ch=ab0d5f69ee55f05f",
+    "description": "Dark Matters, Staffel 3, Silhouette eines Mannes am Schreibtisch",
+    "attribution": "SWR3, rbb / SWR3 / realgestalt"
+  },
+  "publicationService": {
+    "title": "SWR3",
+    "genre": "Pop und Szene",
+    "path": "/radio/swr/swr3/",
+    "organizationName": "SWR"
+  },
+  "items": {
+    "pageInfo": {
+      "hasNextPage": true,
+      "endCursor": "WyJvcmRlcl9hc2MiLCJwdWJsaXNoX2RhdGVfZGVzYyIsW251bGwsIjIwMjMtMTEtMjlUMDA6NDA6MDArMDE6MDAiLDEyOTQ5MzkzXV0="
+    },
+    "nodes": [
+      {
+        "id": "13780371",
+        "title": "Das WLAN-Kommando und der Angriff auf das Parlament",
+        "publishDate": "2024-10-09T00:40:00+02:00",
+        "summary": "Manchmal sind es Kleinigkeiten: Im Mai 2015 funktioniert bei einer Bundestags-Mitarbeiterin die Tastatur plötzlich nicht mehr richtig. Was nach einem Mini-IT-Problem klingt, ist das erste Anzeichen dafür, dass Hacker dabei sind, das deutsche Parlament anz",
+        "duration": 2922,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/das-wlan-kommando-und-der-angriff-auf-das-parlament/swr3/13780371/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:dc80d02070140ae3?w={width}\u0026ch=74232de8f51c79b1",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:37f9e0ff9f51d82f?w={width}\u0026ch=ab0d5f69ee55f05f",
+          "description": "Dark Matters, Staffel 3, Silhouette eines Mannes am Schreibtisch",
+          "attribution": "SWR3, rbb / SWR3 / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2126482.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2126482.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2126482.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "13780355",
+        "title": "Hintergrund: Wie spionieren Geheimdienste im Internet?",
+        "publishDate": "2024-10-09T00:10:00+02:00",
+        "summary": "Dass Geheimdienste das Internet nutzen, um Informationen zu beschaffen, ist kein Geheimnis. Einige haben sogar extra Abteilungen oder eigene Nachrichtendienste dafür geschaffen. Wie sie das machen und warum dabei - bei aller Technik - fast immer menschlic",
+        "duration": 932,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/hintergrund-wie-spionieren-geheimdienste-im-internet/swr3/13780355/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:70171f4eede7ec66?w={width}\u0026ch=74232de8f51c79b1",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:9b6e2f9102a23eaa?w={width}\u0026ch=ab0d5f69ee55f05f",
+          "description": "Dark Matters, Staffel 3, Silhouette eines Mannes am Schreibtisch",
+          "attribution": "SWR3, rbb / SWR3 / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2126479.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2126479.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2126479.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "13766855",
+        "title": "Trailer: Dark Matters live am 17.10. in Nürnberg",
+        "publishDate": "2024-10-03T09:00:00+02:00",
+        "summary": "Am 17.10. habt ihr die Chance Moderatorin Eva-Maria Lemke und die beiden Geheimdienstexperten Holger Schmidt und Michael Götschenberg gemeinsam mit einem Experten-Gast auf der Bühne zu sehen.\nBeim BR Podcastfestival in Nürnberg.\nTickets gibt unter folgend",
+        "duration": 48,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/trailer-dark-matters-live-am-17-10-in-nuernberg/swr3/13766855/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:30c93207007d1b12?w={width}\u0026ch=74232de8f51c79b1",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:dbb002d8ef38c9de?w={width}\u0026ch=ab0d5f69ee55f05f",
+          "description": "Dark Matters, Staffel 3, Silhouette eines Mannes am Schreibtisch",
+          "attribution": "SWR3, rbb / SWR3 / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2123649.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2123649.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2123649.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "13763725",
+        "title": "Die Kleinstadt-Terroristen und die XXL-Überwachung",
+        "publishDate": "2024-10-02T00:40:00+02:00",
+        "summary": "Zwölf blaue Fässer mit je etwa 60 Liter Flüssigkeit stehen 2007 in einer Garage in einem kleinen Örtchen im Nordschwarzwald. Der Inhalt reicht, um mehrere hundert Kilogramm Sprengstoff herzustellen. Genug, um eine Katastrophe auszulösen und viele Menschen",
+        "duration": 2921,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/die-kleinstadt-terroristen-und-die-xxl-ueberwachung/swr3/13763725/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:a01abc432babc903?w={width}\u0026ch=74232de8f51c79b1",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:4b638c9cc4ee1bcf?w={width}\u0026ch=ab0d5f69ee55f05f",
+          "description": "Dark Matters, Staffel 3, Silhouette eines Mannes am Schreibtisch",
+          "attribution": "SWR3, rbb / SWR3 / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2123282.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2123282.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2123282.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "13763673",
+        "title": "Hintergrund: Wie funktioniert die Terrorabwehr in Deutschland?",
+        "publishDate": "2024-10-02T00:10:00+02:00",
+        "summary": "In dieser Hintergrundfolge geht es darum, wie es deutschen Behörden gelang, einen massiven Terroranschlag zu verhindern. Im Gespräch mit dem ARD-Geheimdienstexperten Holger Schmidt klärt Moderatorin Eva-Maria Lemke unter anderem, welche Rolle das  Gemeins",
+        "duration": 1077,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/hintergrund-wie-funktioniert-die-terrorabwehr-in-deutschland/swr3/13763673/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:25fb7f94787fa425?w={width}\u0026ch=74232de8f51c79b1",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:ce824f4b973a76e9?w={width}\u0026ch=ab0d5f69ee55f05f",
+          "description": "Dark Matters, Staffel 3, Silhouette eines Mannes am Schreibtisch",
+          "attribution": "SWR3, rbb / SWR3 / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2123280.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2123280.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2123280.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "13746789",
+        "title": "Die Milliardenpleite und der geflohene Spion",
+        "publishDate": "2024-09-25T00:40:00+02:00",
+        "summary": "Im Juni 2020 eilt ein Mann zum Flughafen in Bad Vöslau, Österreich. Er muss dringend seinen Flieger erreichen - einen Privatjet nach Belarus. Er hebt ab und ist seitdem verschwunden, vermutlich in Russland untergetaucht. Sein Name: Jan Marsalek - und er h",
+        "duration": 2963,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/die-milliardenpleite-und-der-geflohene-spion/swr3/13746789/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:9558df6b71ba8a6d?w={width}\u0026ch=74232de8f51c79b1",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:7e21efb49eff58a1?w={width}\u0026ch=ab0d5f69ee55f05f",
+          "description": "Dark Matters, Staffel 3, Silhouette eines Mannes am Schreibtisch",
+          "attribution": "SWR3, rbb / SWR3 / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2119643.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2119643.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2119643.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "13746757",
+        "title": "Hintergrund: Wie aufwendig tarnen sich Agenten?",
+        "publishDate": "2024-09-25T00:10:00+02:00",
+        "summary": "In dieser Hintergrundfolge geht es darum, wie Geheimdienste ihre Agenten tarnen und welche Art von Identitäten dafür eingesetzt werden. Im Gespräch mit dem ARD-Geheimdienstexperten Michael Götschenberg klärt Moderatorin Eva-Maria Lemke unter anderem, wie ",
+        "duration": 946,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/hintergrund-wie-aufwendig-tarnen-sich-agenten/swr3/13746757/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:5249fd578b84d1d8?w={width}\u0026ch=74232de8f51c79b1",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:b930cd8864c10314?w={width}\u0026ch=ab0d5f69ee55f05f",
+          "description": "Dark Matters, Staffel 3, Silhouette eines Mannes am Schreibtisch",
+          "attribution": "SWR3, rbb / SWR3 / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2119640.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2119640.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2119640.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "13728339",
+        "title": "Der verschwundene Journalist und das Killerkommando",
+        "publishDate": "2024-09-18T00:40:00+02:00",
+        "summary": "Im Oktober 2018 wartet eine Frau vor dem saudischen Konsulat in Istanbul auf ihren Verlobten, den Journalisten Jamal Khashoggi. Er will nur kurz rein, Dokumente holen. Aber sie wartet vergeblich auf seine Rückkehr. Die Informationen, die sie aus dem Konsu",
+        "duration": 2881,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/der-verschwundene-journalist-und-das-killerkommando/swr3/13728339/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:cf0612285fd787e4?w={width}\u0026ch=74232de8f51c79b1",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:247f22f7b0925528?w={width}\u0026ch=ab0d5f69ee55f05f",
+          "description": "Dark Matters, Staffel 3, Silhouette eines Mannes am Schreibtisch",
+          "attribution": "SWR3, rbb / SWR3 / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2114192.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2114192.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2114192.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "13728319",
+        "title": "Hintergrund: Wie töten Geheimdienste?",
+        "publishDate": "2024-09-18T00:10:00+02:00",
+        "summary": "In dieser Hintergrundfolge geht es darum, wie Geheimdienste töten und welche es überhaupt tun dürfen. Im Gespräch mit dem ARD-Geheimdienstexperten Michael Götschenberg klärt Moderatorin Eva-Maria Lemke unter anderem, welche Methoden Agenten einsetzen, um ",
+        "duration": 888,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/hintergrund-wie-toeten-geheimdienste/swr3/13728319/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:08173014a5e9dc51?w={width}\u0026ch=74232de8f51c79b1",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:e36e00cb4aac0e9d?w={width}\u0026ch=ab0d5f69ee55f05f",
+          "description": "Dark Matters, Staffel 3, Silhouette eines Mannes am Schreibtisch",
+          "attribution": "SWR3, rbb / SWR3 / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2114191.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2114191.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2114191.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "13561637",
+        "title": "Spezial: Wo sind Geheimdienste sehenswert?",
+        "publishDate": "2024-07-17T03:00:00+02:00",
+        "summary": "\"Dark Matters\" meldet sich mit einem sommerlichen Lebenszeichen, bevor es im Herbst mit Staffel 3 weitergeht. Die ARD-Geheimdienstexperten Holger Schmidt und Michael Götschenberg besprechen mit Podcast-Host Eva-Maria Lemke populäre und weniger bekannte Fi",
+        "duration": 2595,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/spezial-wo-sind-geheimdienste-sehenswert/swr3/13561637/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:3ff5143686f23db9?w={width}\u0026ch=b7a38fa60e2a4ceb",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:f424550b3eaee22c?w={width}\u0026ch=77f4850506b77326",
+          "description": "Dark Matters - Geheimnisse der Geheimdienste. Staffel 2. Abhöranlage und Datenströme.",
+          "attribution": "SWR3, rbb / SWR3 / BND / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2081901.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2081901.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/2081901.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "12988827",
+        "title": "Spezial: Was können deutsche Geheimdienste von anderen lernen?",
+        "publishDate": "2023-12-13T00:40:00+01:00",
+        "summary": "Die zweite Staffel von \"Dark Matters” geht zu Ende. Moderatorin Eva-Maria Lemke und ARD-Geheimdienstexperte Michael Götschenberg lassen die spannendsten Fälle Revue passieren und sprechen darüber, was alle Fälle aus Staffel 2 gemeinsam haben.\nIm Gespräch ",
+        "duration": 2053,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/spezial-was-koennen-deutsche-geheimdienste-von-anderen-lernen/swr3/12988827/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:6b8778ec4e88dbf3?w={width}\u0026ch=f70c79891d44f6c5",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:a05639d1f6d40466?w={width}\u0026ch=25733609039fd0db",
+          "description": "Dark Matters - Geheimnisse der Geheimdienste. Staffel 2. Abhöranlage und Datenströme.",
+          "attribution": "SWR3, rbb / SWR3 / BND / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/1968928.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/1968928.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/1968928.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      },
+      {
+        "id": "12949393",
+        "title": "Das Rätsel vom Meeresgrund und der Pakt mit Putin",
+        "publishDate": "2023-11-29T00:40:00+01:00",
+        "summary": "In der letzten Folge der zweiten Staffel geht es um einen Anschlag, der uns allen galt: Im September 2022 wurden vier Lecks in die Nordstream-Pipelines am Grund der Ostsee gesprengt. Genau die Röhren, die einen großen Teil der deutschen Energieversorgung ",
+        "duration": 3101,
+        "path": "/episode/dark-matters-geheimnisse-der-geheimdienste/das-raetsel-vom-meeresgrund-und-der-pakt-mit-putin/swr3/12949393/",
+        "image": {
+          "url": "https://api.ardmediathek.de/image-service/images/urn:ard:image:0f3e5a5bf630ae21?w={width}\u0026ch=f70c79891d44f6c5",
+          "url1X1": "https://api.ardmediathek.de/image-service/images/urn:ard:image:c4ef1b664e6c71b4?w={width}\u0026ch=6d5e2e03b48c5843",
+          "description": "Dark Matters - Geheimnisse der Geheimdienste. Staffel 2. Abhöranlage und Datenströme.",
+          "attribution": "SWR3, rbb / SWR3 / BND / realgestalt"
+        },
+        "programSet": {
+          "id": "12449787",
+          "title": "Dark Matters - Geheimnisse der Geheimdienste",
+          "path": "/sendung/dark-matters-geheimnisse-der-geheimdienste/12449787/",
+          "publicationService": {
+            "title": "SWR3",
+            "genre": "Pop und Szene",
+            "path": "/radio/swr/swr3/",
+            "organizationName": "SWR"
+          }
+        },
+        "audios": [
+          {
+            "url": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/1962552.m.mp3",
+            "downloadUrl": "https://avdlswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/1962552.m.mp3",
+            "allowDownload": true
+          },
+          {
+            "url": "https://pdodswr-a.akamaihd.net/swr3/podcasts-audioreihen/dark-matters-geheimnisse-der-geheimdienste/1962552.m.mp3",
+            "downloadUrl": "",
+            "allowDownload": false
+          }
+        ]
+      }
+    ]
+  }
+}
